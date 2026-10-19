@@ -20,3 +20,20 @@ public class ItemBill {
        input.close();
    }
 }
+  double finalAmount = total - discount;
+
+ 
+
+        System.out.printf("Total bill: %.3f OMR%n", total);
+
+        System.out.printf("Discount: %.3f OMR%n", discount);
+
+        System.out.printf("Amount to pay: %.3f OMR%n", finalAmount);
+
+ 
+
+        input.close();
+
+    }
+
+ 
